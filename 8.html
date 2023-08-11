@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course  Registration Form</title>
+    <style>
+        .reg1
+        {
+            background-image: url('https://thumbs.dreamstime.com/b/incredibly-beautiful-sunset-sun-lake-sunrise-landscape-panorama-nature-sky-amazing-colorful-clouds-fantasy-design-115177001.jpg');
+            border:3px solid black;
+            border-radius:20px;
+            padding:20px;
+            height:fit-content;
+            width:fit-content;
+            margin-top:100px;
+            margin-left:35%;
+            background-color:aqua;
+        }
+        body{
+           background-image:url('https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=pexels-pixabay-206359.jpg&fm=jpg');
+           background-size: cover;
+           height:100%;
+        }
+    </style>
+</head>
+<body style="text-align:center;">
+    <div class="reg1">
+    <h1 style="text-align:center; font-family:Arial, Helvetica, sans-serif; color:navy;">Course Registration Form</h1>
+    <hr>
+    <label>SurName:</label>
+    <input type="text" class="surname" id="surname" placeholder="enter surname" required><br>
+    <br>
+    <label for="name">Full Name:</label>
+    <input type="text" class="name" id="name" placeholder="enter full name" required><br>
+    <br>
+    <label>Gender:</label>
+    <input type="radio" name="gender" id="gender" value="Male">Male
+    <input type="radio" name="gender" id="gender" value="Female">Female
+    <input type="radio" name="gender" id="gender" value="Other">Other
+    <br><br>
+    <label>enter dob:</label>
+    <input type="date" name="age" id="age" value="enter dob:" required>
+    <br><br>
+    <label>Gmail:</label>
+    <input type="email" class="gmail" id="gmail" placeholder="enter mail id" required><br>
+    <br>
+    <label>Enter phno:</label>
+    <input type="number" name="phno" id="phno" placeholder="enter phno:" required>
+    <br>
+    <p>Select Course plan:</p>
+    <input type="radio" name="course" id="3 months" value="3 months">
+    <label for="3 months">3 months(Rs.400/-)</label>
+    <input type="radio" name="course" id="6 months" value="6 months">
+    <label for="6 months">6 months(Rs.900/-)</label>
+    <input type="radio" name="course" id="annual" value="annual">
+    <label for="annual">annual plan(Rs.1200/-)</label>
+    <br><br>
+    <label>Select courses:</label>
+    <select name="technologies" id="technologies">
+    <option value="Artificial Intelligence">Artificial Intelligence</option>
+    <option value="BlockChain">BlockChain</option>
+    <option value="Web Development">Web Development</option>
+    <option value="Full Stack Developer">Full Stack Web Development</option>
+    <option value="Machine Learning">Machine Learning</option>
+    </select>
+    <br><br>
+    <input type="submit" value="confirm" style="border-radius:8px; background-color:rgb(209, 41, 173)">
+    <input type="reset" value="submit" style="border-radius:8px; background-color:rgb(209, 41, 173)" >
+    </div>
+</body>
+</html>
